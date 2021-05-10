@@ -28,5 +28,12 @@ class SwiftUIPracticeTests: XCTestCase {
 
         XCTAssertEqual(sq, 4)
     }
+    
+    func testExample3(){
+        let num = 2
+        let cube = num * num * num
+
+        XCTAssertEqual(cube, 8)
+    }
 
 }
