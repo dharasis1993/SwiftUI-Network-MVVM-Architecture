@@ -48,4 +48,11 @@ class SwiftUIPracticeTests: XCTestCase {
 
         XCTAssertEqual(cube, 8)
     }
+    
+    func testExample6(){
+        let num = 2
+        let cube = num * num * num
+
+        XCTAssertEqual(cube, 8)
+    }
 }
